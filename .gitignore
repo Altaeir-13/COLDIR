@@ -1,0 +1,38 @@
+# Flutter / Dart
+frontend/.dart_tool/
+frontend/build/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+
+# Android / Gradle
+frontend/android/.gradle/
+frontend/android/local.properties
+
+# IDEs
+.idea/
+.vscode/
+**/.idea/
+**/.vscode/
+*.iml
+
+# Ambientes
+.env
+.env.local
+.env.*.local
+**/.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Node
+node_modules/
+dist/
+build/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db

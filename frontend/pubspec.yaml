@@ -1,0 +1,56 @@
+name: fadir
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  supabase_flutter: ^2.12.0
+
+  http: ^1.2.0
+  provider: ^6.0.5
+  uuid: ^4.4.0
+  shared_preferences: ^2.3.2
+  intl: ^0.20.2
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.2.1
+  mask_text_input_formatter: ^2.9.0
+  pinput: ^6.0.1
+  flutter_secure_storage: ^9.2.2
+  flutter_dotenv: ^5.2.1
+  
+  # Adicione o google_fonts se quiser usar fontes customizadas facilmente
+  # google_fonts: ^6.1.0 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices.
+  flutter_lints: ^5.0.0
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application.
+  uses-material-design: true
+
+  # ÁREA DE ASSETS (Imagens)
+  assets:
+    - assets/.env
+    - assets/logo.png
+    - assets/if.png
