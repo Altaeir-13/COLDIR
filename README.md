@@ -1,4 +1,4 @@
-# Fadir - Event Management Flutter Application
+# COLDIR - Event Management Flutter Application
 
 A secure Flutter application for event management with integrated Supabase backend.
 
